@@ -1,0 +1,21 @@
+Sub r3 r1 r2
+Mult r4 r1 r2
+Clear r1
+Addi r5 r0 99
+Addi r18 r18 98
+Addi r19 r19 10
+Addi r17 r17 16
+Addi r20 r20 19
+Move r6 r2
+And r7 r2 r2
+Or r8 r0 r4
+Lw r9 r5
+Slt r0 r2 r1
+Sw r19 r18
+Beq r17 r13 r13
+Addi r16 r16 100
+Addi r15 r15 300
+Jr r20
+Addi r21 r21 600
+Addi r22 r22 700
+Add r23 r23 r18
